@@ -20,11 +20,10 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'San José']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Escazú']")).click();
+        adaptador.findElementXpath(("//option[. = 'Pérez Zeledón']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
-        adaptador.findElementXpath(("//option[. = 'Escazú']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
@@ -41,7 +40,7 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Alajuela']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Grecia']")).click();
+        adaptador.findElementXpath(("//option[. = 'Upala']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
@@ -61,7 +60,7 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Cartago']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'occidental']")).click();
+        adaptador.findElementXpath(("//option[. = 'Paraíso']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
@@ -80,11 +79,10 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Heredia']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Barva']")).click();
+        adaptador.findElementXpath(("//option[. = 'Sarapiquí']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
-        adaptador.findElementXpath(("//option[. = 'Barva']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
@@ -101,7 +99,7 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Guanacaste']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Nicoya']")).click();
+        adaptador.findElementXpath(("//option[. = 'Tilarán']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
@@ -121,18 +119,18 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Puntarenas']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Osa']")).click();
+        adaptador.findElementXpath(("//option[. = 'Golfito']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
-        adaptador.findElementXpath(("//option[. = 'Palmar']")).click();
+        adaptador.findElementXpath(("//option[. = 'Puerto Jiménez']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
         adaptador.findElementById(("MinPrice")).click();
         adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("4000000000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("100000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
@@ -141,11 +139,11 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Limón']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Talamanca']")).click();
+        adaptador.findElementXpath(("//option[. = 'Matina']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
-        adaptador.findElementXpath(("//option[. = 'Bratsi']")).click();
+        adaptador.findElementXpath(("//option[. = 'Matina']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
