@@ -24,13 +24,14 @@ public class Filtros {
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
+        adaptador.findElementXpath(("//option[. = 'Escazú']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
         adaptador.findElementById(("MinPrice")).click();
-        adaptador.findElementById(("MinPrice")).sendKeys("60000");
+        adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("24000000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("2000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
@@ -40,7 +41,7 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Alajuela']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Orotina']")).click();
+        adaptador.findElementXpath(("//option[. = 'Grecia']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
@@ -50,7 +51,7 @@ public class Filtros {
         adaptador.findElementById(("MinPrice")).click();
         adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("260000000000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("6000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
@@ -60,7 +61,7 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Cartago']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Oreamuno']")).click();
+        adaptador.findElementXpath(("//option[. = 'occidental']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
@@ -68,9 +69,9 @@ public class Filtros {
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
         adaptador.findElementById(("MinPrice")).click();
-        adaptador.findElementById(("MinPrice")).sendKeys("50000");
+        adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("20000000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("9000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
@@ -83,6 +84,7 @@ public class Filtros {
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
+        adaptador.findElementXpath(("//option[. = 'Barva']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
@@ -107,9 +109,9 @@ public class Filtros {
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
         adaptador.findElementById(("MinPrice")).click();
-        adaptador.findElementById(("MinPrice")).sendKeys("500");
+        adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("9784000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("6000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
@@ -123,14 +125,14 @@ public class Filtros {
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
-        adaptador.findElementXpath(("//option[. = 'San Vito']")).click();
+        adaptador.findElementXpath(("//option[. = 'Palmar']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
         adaptador.findElementById(("MinPrice")).click();
         adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("60000000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("4000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
@@ -139,18 +141,18 @@ public class Filtros {
         adaptador.findElementXpath(("//option[. = 'Limón']")).click();
         adaptador.findElementById(("CantonId")).click();
         adaptador.findElementById(("CantonId"));
-        adaptador.findElementXpath(("//option[. = 'Matina']")).click();
+        adaptador.findElementXpath(("//option[. = 'Talamanca']")).click();
         adaptador.findCssSelector((".btn-filter"));
         adaptador.findTagName(("body"));
         adaptador.findElementById(("DistrictId")).click();
-        adaptador.findElementXpath(("//option[. = 'Talamanca']")).click();
+        adaptador.findElementXpath(("//option[. = 'Bratsi']")).click();
         adaptador.findElementById(("PropertyTypeId")).click();
         adaptador.findElementById(("PropertyTypeId"));
         adaptador.findElementXpath(("//option[. = 'Terrenos']")).click();
         adaptador.findElementById(("MinPrice")).click();
         adaptador.findElementById(("MinPrice")).sendKeys("0");
         adaptador.findElementById(("MaxPrice")).click();
-        adaptador.findElementById(("MaxPrice")).sendKeys("8000000000");
+        adaptador.findElementById(("MaxPrice")).sendKeys("1000000000");
         adaptador.findCssSelector((".btn-filter")).click();
         adaptador.findCssSelector((".property-item-title > strong")).click();
     }
