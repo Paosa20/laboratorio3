@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Casos de Prueba">
+    <test name="Filtrado">
+        <parameter name="navegador" value="Chrome"></parameter>
+        <parameter name="url" value="https://www.bnventadebienes.com/Home/HomeFilter"></parameter>
+        <classes>
+            <class name="Casos">
+                <methods>
+                    <include name="TestSanJose"></include>
+                    <include name="TestAlajuela"></include>
+                    <include name="TestCartago"></include>
+                    <include name="TestHeredia"></include>
+                    <include name="TestGuanacaste"></include>
+                    <include name="TestPuntarenas"></include>
+                    <include name="TestLimon"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
